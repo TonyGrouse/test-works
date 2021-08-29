@@ -7,7 +7,6 @@
     <!-- <meta name="robots" content="noindex, nofollow"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="css/style.min.css">
-    <link type="text/css" rel="stylesheet" href="../node_modules/lightgallery.js/dist/css/lightgallery.min.css"/>
     <!-- <link rel="shortcut icon" href="favicon.ico"> -->
 </head>
 <body>
@@ -91,55 +90,52 @@
                 </div>
             </section>
             <section class="gallery-images">
-                <div class="gallery-images__plant">
-                    <img src="img/gp.png" alt="Растение">
-                </div>
                 <div class="container">
                     <div class="gallery-images__row">
                         <div class="gallery-images__column">
-                            <div class="gallery-images__item">
+                            <a data-fslightbox="first-lightbox" href="img/g1.jpg" class="gallery-images__item">
                                 <img src="img/g1.jpg" alt="">    
-                            </div>
+                            </a>
                         </div>
                         <div class="gallery-images__column">
-                            <div class="gallery-images__item">
+                            <a data-fslightbox="first-lightbox" href="img/g2.jpg" class="gallery-images__item">
                                 <img src="img/g2.jpg" alt="">    
-                            </div>
+                            </a>
                         </div>
                         <div class="gallery-images__column">
-                            <div class="gallery-images__item">
+                            <a data-fslightbox="first-lightbox" href="img/g3.jpg" class="gallery-images__item">
                                 <img src="img/g3.jpg" alt="">    
-                            </div>
+                            </a>
                         </div>
                         <div class="gallery-images__column">
-                            <div class="gallery-images__item">
+                            <a data-fslightbox="first-lightbox" href="img/g4.jpg" class="gallery-images__item">
                                 <img src="img/g4.jpg" alt="">    
-                            </div>
+                            </a>
                         </div>
                         <div class="gallery-images__column">
-                            <div class="gallery-images__item">
+                            <a data-fslightbox="first-lightbox" href="img/g5.jpg" class="gallery-images__item">
                                 <img src="img/g5.jpg" alt="">    
-                            </div>
+                            </a>
                         </div>
                         <div class="gallery-images__column">
-                            <div class="gallery-images__item">
+                            <a data-fslightbox="first-lightbox" href="img/g6.jpg" class="gallery-images__item">
                                 <img src="img/g6.jpg" alt="">    
-                            </div>
+                            </a>
                         </div>
                         <div class="gallery-images__column">
-                            <div class="gallery-images__item">
+                            <a data-fslightbox="first-lightbox" href="img/g7.jpg" class="gallery-images__item">
                                 <img src="img/g7.jpg" alt="">    
-                            </div>
+                            </a>
                         </div>
                         <div class="gallery-images__column">
-                            <div class="gallery-images__item">
+                            <a data-fslightbox="first-lightbox" href="img/g8.jpg" class="gallery-images__item">
                                 <img src="img/g8.jpg" alt="">    
-                            </div>
+                            </a>
                         </div>
                         <div class="gallery-images__column">
-                            <div class="gallery-images__item">
+                            <a data-fslightbox="first-lightbox" href="img/g9.jpg" class="gallery-images__item">
                                 <img src="img/g9.jpg" alt="">    
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -165,10 +161,10 @@
             <form action="#">
                 <div class="form-call__inputs">
                     <div class="form-call__input">
-                        <input type="text" name="call-name" placeholder="Введите Ваше имя...">
+                        <input class="_req" type="text" name="call-name" placeholder="Введите Ваше имя...">
                     </div>
                     <div class="form-call__input">
-                        <input type="tel" name="call-tel" placeholder="Введите Ваш телефон...">
+                        <input class="_req _tel" type="tel" name="call-tel" data-tel-input maxlength="18" placeholder="Введите Ваш телефон...">
                     </div>
                 </div>
                 <div class="form-call__check checkbox">
@@ -237,7 +233,7 @@
 	</div>
 </footer>
     </div>
-    <!-- <script src="../node_modules/lightgallery.js/dist/js/lightgallery.min.js"></script> -->
+    <script src="js/fslightbox.js"></script>
     <script src="js/script.min.js" ></script>
 </body>
 </html>

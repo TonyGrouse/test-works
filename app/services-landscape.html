@@ -7,7 +7,6 @@
     <!-- <meta name="robots" content="noindex, nofollow"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="css/style.min.css">
-    <link type="text/css" rel="stylesheet" href="../node_modules/lightgallery.js/dist/css/lightgallery.min.css"/>
     <!-- <link rel="shortcut icon" href="favicon.ico"> -->
 </head>
 <body>
@@ -272,10 +271,10 @@
             <form action="#">
                 <div class="form-call__inputs">
                     <div class="form-call__input">
-                        <input type="text" name="call-name" placeholder="Введите Ваше имя...">
+                        <input class="_req" type="text" name="call-name" placeholder="Введите Ваше имя...">
                     </div>
                     <div class="form-call__input">
-                        <input type="tel" name="call-tel" placeholder="Введите Ваш телефон...">
+                        <input class="_req _tel" type="tel" name="call-tel" data-tel-input maxlength="18" placeholder="Введите Ваш телефон...">
                     </div>
                 </div>
                 <div class="form-call__check checkbox">

@@ -7,7 +7,6 @@
     <!-- <meta name="robots" content="noindex, nofollow"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="css/style.min.css">
-    <link type="text/css" rel="stylesheet" href="../node_modules/lightgallery.js/dist/css/lightgallery.min.css"/>
     <!-- <link rel="shortcut icon" href="favicon.ico"> -->
 </head>
 <body>
@@ -107,22 +106,27 @@
                                 <h2>Обсудим Ваш проект?</h2>
                             </div>
                             <form action="#">
-                                <div class="form__input">
-                                    <input name='phone' type="tel" placeholder="Введите Ваш номер телефона...">
-                                </div>
-                                <div class="form__button">
-                                    <div class="btn">
-                                        <button type="submit">Позвоните мне</button>
+                                <div class="form-call__inputs">
+                                    <div class="form-call__input form__input">
+                                        <input class="_req" type="text" name="call-name" placeholder="Введите Ваше имя...">
+                                    </div>
+                                    <div class="form-call__input form__input">
+                                        <input class="_req _tel" type="tel" name="call-tel" data-tel-input maxlength="18" placeholder="Введите Ваш телефон...">
                                     </div>
                                 </div>
-                                <div class="form__check checkbox">
-                                    <input id="main-check" name='main-check' type="checkbox" checked required>
-                                    <label for="main-check">
+                                <div class="form-call__check checkbox form__check">
+                                    <input id="call-check" name='call-check' type="checkbox">
+                                    <label for="call-check">
                                         Я даю согласие на обработку своих персональных данных в соответствие с
                                     </label>
                                     <a href="politics.html" target="_blank" rel="noopener noreferrer">
                                         политикой конфиденциальности
                                     </a>
+                                </div>
+                                <div class="form-call__button form__button">
+                                    <div class="btn">
+                                        <button type="submit">Позвоните мне</button>
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -443,10 +447,10 @@
             <form action="#">
                 <div class="form-call__inputs">
                     <div class="form-call__input">
-                        <input type="text" name="call-name" placeholder="Введите Ваше имя...">
+                        <input class="_req" type="text" name="call-name" placeholder="Введите Ваше имя...">
                     </div>
                     <div class="form-call__input">
-                        <input type="tel" name="call-tel" placeholder="Введите Ваш телефон...">
+                        <input class="_req _tel" type="tel" name="call-tel" data-tel-input maxlength="18" placeholder="Введите Ваш телефон...">
                     </div>
                 </div>
                 <div class="form-call__check checkbox">
@@ -475,28 +479,28 @@
                         <h2>Цены на услуги по благоустройству участка</h2>
                     </div>
                     <div class="pricing__container">
-                        <div class="pricing__btns">
-                            <div class="pricing__btn">
+                        <div class="pricing__btns table-btns">
+                            <div class="pricing__btn table-btn">
                                 <div class="btn">
                                     <a href="#">Благоустройство</a>
                                 </div>
                             </div>
-                            <div class="pricing__btn">
+                            <div class="pricing__btn table-btn">
                                 <div class="btn">
                                     <a href="#">Ландшафтный дизайн</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="pricing__tables">
-                            <div class="pricing__table table-pricing">
+                        <div class="pricing__tables tables">
+                            <div class="pricing__table table-pricing table">
                                 <table>
-                                    <thead class="table-pricing__head">
+                                    <thead class="table-pricing__head table__head">
                                         <tr>
                                             <th>Наименование работ</th>
                                             <th>Стоимость</th>
                                         </tr>
                                     </thead>
-                                    <tbody class="table-pricing__body">
+                                    <tbody class="table-pricing__body table__body">
                                         <tr>
                                             <td><p>Строительство систем водоотведения</p></td>
                                             <td><p>от 950 рублей за п.м.</p></td>
@@ -520,15 +524,15 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="pricing__table table-pricing">
+                            <div class="pricing__table table-pricing table">
                                 <table>
-                                    <thead class="table-pricing__head">
+                                    <thead class="table-pricing__head table__head">
                                         <tr>
-                                            <th><p>Наименование работ</p></th>
-                                            <th><p>Стоимость</p></th>
+                                            <th>Наименование работ</th>
+                                            <th>Стоимость</th>
                                         </tr>
                                     </thead>
-                                    <tbody class="table-pricing__body">
+                                    <tbody class="table-pricing__body table__body">
                                         <tr>
                                             <td><p>Проектирование и укладка <br> садовых дорожек</p></td>
                                             <td><p>от 8000 рублей за м<sup>2</sup></p></td>
