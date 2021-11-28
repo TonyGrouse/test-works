@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Роллы</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__row row row-cols-xl-2 row-cols-1">
+                    <div
+                        class="header__column-group row justify-content-xl-start justify-content-md-center justify-content-between">
+                        <div class="header__column">
+                            <div class="header__title">
+                                <a href="index.html" class="title">КӘЕФ БАР</a>
+                                <p>Онлайн - меню</p>
+                            </div>
+                        </div>
+                        <div class="header__column">
+                            <div class="header__time row align-items-md-start align-items-center">
+                                <div class="header__time-img">
+                                    <img id="clock" src="img/ico/clock.svg" alt="">
+                                </div>
+                                <div class="header__time-text">
+                                    <p><span id="underline">Сейчас</span> 10:38, <span id="day">Вторник</span></p>
+                                    <p><span id="open">Открыто</span> до 22:45</p>
+                                </div>
+                                <div class="header__time-img">
+                                    <img id="double-arrow" src="img/ico/double-arrow.svg" alt="">
+                                </div>
+                                <div class="timetable">
+                                    <table>
+                                        <tbody class="timetable__body">
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Понедельник:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row active">
+                                                <td class="timetable__cell">Вторник:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Cреда:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Четверг:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Пятница:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Суббота:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Воскресение:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="header-col"
+                        class="header__column-group col-group-contacts row justify-content-xl-end justify-content-md-center justify-content-between">
+                        <div class="header__column col-group-contacts__column">
+                            <div class="header__btns col-group-contacts__btns row">
+                                <div class="header__btn col-group-contacts__btn">
+                                    <svg>
+                                        <use xlink:href="sprite.svg#phone"></use>
+                                    </svg>
+                                    <a href="tel:+">Позвонить</a>
+                                </div>
+                                <div class="header__btn col-group-contacts__btn">
+                                    <svg>
+                                        <use xlink:href="sprite.svg#list"></use>
+                                    </svg>
+                                    <a href="index.html#dishes">Наши блюда</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__column col-group-contacts__column">
+                            <div class="header__social col-group-contacts__social row">
+                                <div class="header__link col-group-contacts__link">
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        <img src="img/ico/wup.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="header__link col-group-contacts__link">
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        <img src="img/ico/inst.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <section class="navigation">
+                <div class="container">
+                    <div class="navigation__link">
+                        <a href="index.html" class="row align-items-center">
+                            <svg>
+                                <use xlink:href="sprite.svg#arrow"></use>
+                            </svg>
+                            <h2>Все блюда</h2>
+                        </a>
+                    </div>
+                    <div class="navigation__title">
+                        <h1>Роллы</h1>
+                    </div>
+                    <div class="navigation__text">
+                        <p>Заказы осуществляются по телефону или WhatsApp</p>
+                    </div>
+                    <div class="navigation__list list">
+                        <nav>
+                            <ul class="list__nav row">
+                                <li class="list__item">
+                                    <a href="#sets">Сеты</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#classic">Класические</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Холодные</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">В темпуре</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Жареные</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Запечённые</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#">Сладкие</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+            <section id="sets" class="products sets">
+                <div class="container">
+                    <div class="products__title sets__title">
+                        <h2>Сеты</h2>
+                    </div>
+                    <div class="products__row sets__row row row-cols-lg-3 row-cols-md-2 row-cols-1">
+                        <div class="products__column sets__column">
+                            <div class="row flex-column products__item sets__item">
+                                <div class="products__img sets__img">
+                                    <div
+                                        class="row align-items-center products__time products__stamp sets__time sets__stamp">
+                                        <svg>
+                                            <use xlink:href="sprite.svg#clock"></use>
+                                        </svg>
+                                        <p><span>20</span> мин</p>
+                                    </div>
+                                    <div class="products__price products__stamp sets__price sets__stamp">
+                                        <p><span>1100</span> руб.</p>
+                                    </div>
+                                    <img src="img/rolls/r1.jpg" alt="Суши">
+                                </div>
+                                <div class="products__item-title sets__item-title">
+                                    <h3>Филомания</h3>
+                                </div>
+                                <div class="flex-fill products__item-descr sets__item-descr">
+                                    <p>
+                                        Филадельфия люкс, Филадельфия запечаная, Филадельфия класическая, Филадельфия
+                                        жареная
+                                    </p>
+                                </div>
+                                <div class="products__item-mass sets__item-mass">
+                                    <h4>Масса - 500 гр</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__column sets__column">
+                            <div class="row flex-column products__item sets__item">
+                                <div class="products__img sets__img">
+                                    <div
+                                        class="row align-items-center products__time products__stamp sets__time sets__stamp">
+                                        <svg>
+                                            <use xlink:href="sprite.svg#clock"></use>
+                                        </svg>
+                                        <p><span>20</span> мин</p>
+                                    </div>
+                                    <div class="products__price products__stamp sets__price sets__stamp">
+                                        <p><span>1100</span> руб.</p>
+                                    </div>
+                                    <img src="img/rolls/r1.jpg" alt="Суши">
+                                </div>
+                                <div class="products__item-title sets__item-title">
+                                    <h3>Большая компания</h3>
+                                </div>
+                                <div class="flex-fill products__item-descr sets__item-descr">
+                                    <p>
+                                        Филадельфия люкс, Филадельфия запечаная, Филадельфия класическая, Филадельфия
+                                        жареная
+                                    </p>
+                                </div>
+                                <div class="products__item-mass sets__item-mass">
+                                    <h4>Масса - 900 гр</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__column sets__column">
+                            <div class="row flex-column products__item sets__item">
+                                <div class="products__img sets__img">
+                                    <div
+                                        class="row align-items-center products__time products__stamp sets__time sets__stamp">
+                                        <svg>
+                                            <use xlink:href="sprite.svg#clock"></use>
+                                        </svg>
+                                        <p><span>20</span> мин</p>
+                                    </div>
+                                    <div class="products__price products__stamp sets__price sets__stamp">
+                                        <p><span>1100</span> руб.</p>
+                                    </div>
+                                    <img src="img/rolls/r1.jpg" alt="Суши">
+                                </div>
+                                <div class="products__item-title sets__item-title">
+                                    <h3>Филомания</h3>
+                                </div>
+                                <div class="flex-fill products__item-descr sets__item-descr">
+                                    <p>
+                                        Филадельфия люкс, Филадельфия запечаная, Филадельфия класическая, Филадельфия
+                                        жареная Филадельфия люкс, Филадельфия запечаная, Филадельфия класическая,
+                                        Филадельфия
+                                        жареная Филадельфия люкс, Филадельфия запечаная, Филадельфия класическая,
+                                        Филадельфия
+                                        жареная
+                                    </p>
+                                </div>
+                                <div class="products__item-mass sets__item-mass">
+                                    <h4>Масса - 500 гр</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="classic" class="products classic">
+                <div class="container">
+                    <div class="products__title classic__title">
+                        <h2>Класические</h2>
+                    </div>
+                    <div class="products__row classic__row row row-cols-lg-3 row-cols-md-2 row-cols-1">
+                        <div class="products__column classic__column">
+                            <div class="row flex-column products__item classic__item">
+                                <div class="products__img classic__img">
+                                    <div
+                                        class="row align-items-center products__time products__stamp classic__time classic__stamp">
+                                        <svg>
+                                            <use xlink:href="sprite.svg#clock"></use>
+                                        </svg>
+                                        <p><span>20</span> мин</p>
+                                    </div>
+                                    <div class="products__price products__stamp classic__price classic__stamp">
+                                        <p><span>1100</span> руб.</p>
+                                    </div>
+                                    <img src="img/rolls/r1.jpg" alt="Суши">
+                                </div>
+                                <div class="products__item-title classic__item-title">
+                                    <h3>Сет - Филомания</h3>
+                                </div>
+                                <div class="flex-fill products__item-descr classic__item-descr">
+                                    <p>
+                                        Филадельфия люкс, Филадельфия запечаная, Филадельфия класическая, Филадельфия
+                                        жареная
+                                    </p>
+                                </div>
+                                <div class="products__item-mass classic__item-mass">
+                                    <h4>Масса - 500 гр</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__column classic__column">
+                            <div class="row flex-column products__item classic__item">
+                                <div class="products__img classic__img">
+                                    <div
+                                        class="row align-items-center products__time products__stamp classic__time classic__stamp">
+                                        <svg>
+                                            <use xlink:href="sprite.svg#clock"></use>
+                                        </svg>
+                                        <p><span>20</span> мин</p>
+                                    </div>
+                                    <div class="products__price products__stamp classic__price classic__stamp">
+                                        <p><span>1100</span> руб.</p>
+                                    </div>
+                                    <img src="img/rolls/r1.jpg" alt="Суши">
+                                </div>
+                                <div class="products__item-title classic__item-title">
+                                    <h3>Сет - Филомания</h3>
+                                </div>
+                                <div class="flex-fill products__item-descr classic__item-descr">
+                                    <p>
+                                        Филадельфия люкс, Филадельфия запечаная, Филадельфия класическая, Филадельфия
+                                        жареная Филадельфия люкс, Филадельфия запечаная, Филадельфия класическая,
+                                        Филадельфия жареная Филадельфия люкс, Филадельфия запечаная, Филадельфия
+                                        класическая, Филадельфия жареная
+                                    </p>
+                                </div>
+                                <div class="products__item-mass classic__item-mass">
+                                    <h4>Масса - 500 гр</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__column classic__column">
+                            <div class="row flex-column products__item classic__item">
+                                <div class="products__img classic__img">
+                                    <div
+                                        class="row align-items-center products__time products__stamp classic__time classic__stamp">
+                                        <svg>
+                                            <use xlink:href="sprite.svg#clock"></use>
+                                        </svg>
+                                        <p><span>20</span> мин</p>
+                                    </div>
+                                    <div class="products__price products__stamp classic__price classic__stamp">
+                                        <p><span>1100</span> руб.</p>
+                                    </div>
+                                    <img src="img/rolls/r1.jpg" alt="Суши">
+                                </div>
+                                <div class="products__item-title classic__item-title">
+                                    <h3>Сет - Филомания</h3>
+                                </div>
+                                <div class="flex-fill products__item-descr classic__item-descr">
+                                    <p>
+                                        Филадельфия люкс, Филадельфия запечаная, Филадельфия класическая, Филадельфия
+                                        жареная
+                                    </p>
+                                </div>
+                                <div class="products__item-mass classic__item-mass">
+                                    <h4>Масса - 500 гр</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <div class='container'>
+                <div class="footer__row row justify-content-lg-between justify-content-center align-items-lg-end">
+                    <div class="footer__column">
+                        <div class="footer__item">
+                            <div class="footer__text">
+                                <h2 class="title">КӘЕФ БАР</h2>
+                                <p>2019 - 2022</p>
+                            </div>
+                            <div class="footer__address">
+                                <p>Телефон: <a href="tel:+79393316636">+7 (939) 331-66-36</a></p>
+                                <p>Адрес: <span>Богатые сабы, ул. Тукая 15а</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__item">
+                            <div
+                                class="footer__col-group col-group-contacts row justify-content-xl-end justify-content-md-center d-none d-md-flex">
+                                <div class="col-group-contacts__column">
+                                    <div class="footer__btns col-group-contacts__btns row">
+                                        <div class="footer__btn col-group-contacts__btn">
+                                            <svg>
+                                                <use xlink:href="sprite.svg#phone"></use>
+                                            </svg>
+                                            <a href="tel:+">Позвонить</a>
+                                        </div>
+                                        <div class="footer__btn col-group-contacts__btn">
+                                            <svg>
+                                                <use xlink:href="sprite.svg#list"></use>
+                                            </svg>
+                                            <a href="index.html#dishes">Наши блюда</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-group-contacts__column">
+                                    <div class="footer__social col-group-contacts__social row">
+                                        <div class="footer__link col-group-contacts__link">
+                                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/ico/wup.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="footer__link col-group-contacts__link">
+                                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/ico/inst.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__authors">
+                                <p>
+                                    Разработка -
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">Будь в сети</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="fixed-footer">
+            <div class="container">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Главная</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__row row row-cols-xl-2 row-cols-1">
+                    <div
+                        class="header__column-group row justify-content-xl-start justify-content-md-center justify-content-between">
+                        <div class="header__column">
+                            <div class="header__title">
+                                <a href="index.html" class="title">КӘЕФ БАР</a>
+                                <p>Онлайн - меню</p>
+                            </div>
+                        </div>
+                        <div class="header__column">
+                            <div class="header__time row align-items-md-start align-items-center">
+                                <div class="header__time-img">
+                                    <img id="clock" src="img/ico/clock.svg" alt="">
+                                </div>
+                                <div class="header__time-text">
+                                    <p><span id="underline">Сейчас</span> 10:38, <span id="day">Вторник</span></p>
+                                    <p><span id="open">Открыто</span> до 22:45</p>
+                                </div>
+                                <div class="header__time-img">
+                                    <img id="double-arrow" src="img/ico/double-arrow.svg" alt="">
+                                </div>
+                                <div class="timetable">
+                                    <table>
+                                        <tbody class="timetable__body">
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Понедельник:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row active">
+                                                <td class="timetable__cell">Вторник:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Cреда:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Четверг:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Пятница:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Суббота:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                            <tr class="timetable__row">
+                                                <td class="timetable__cell">Воскресение:</td>
+                                                <td class="timetable__cell">c 09:00 до 22:45</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="header-col"
+                        class="header__column-group col-group-contacts row justify-content-xl-end justify-content-md-center justify-content-between">
+                        <div class="header__column col-group-contacts__column">
+                            <div class="header__btns col-group-contacts__btns row">
+                                <div class="header__btn col-group-contacts__btn">
+                                    <svg>
+                                        <use xlink:href="sprite.svg#phone"></use>
+                                    </svg>
+                                    <a href="tel:+">Позвонить</a>
+                                </div>
+                                <div class="header__btn col-group-contacts__btn">
+                                    <svg>
+                                        <use xlink:href="sprite.svg#list"></use>
+                                    </svg>
+                                    <a href="#dishes">Наши блюда</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__column col-group-contacts__column">
+                            <div class="header__social col-group-contacts__social row">
+                                <div class="header__link col-group-contacts__link">
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        <img src="img/ico/wup.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="header__link col-group-contacts__link">
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        <img src="img/ico/inst.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <section class="info">
+                <div class="container">
+                    <div class="info__row row row-cols-1">
+                        <div class="info__column col-md-3">
+                            <div class="info__logo">
+                                <img src="img/logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="info__column col-md-9">
+                            <div class="info__content">
+                                <div class="info__descr">
+                                    <p>
+                                        <span>Кәеф бар</span> – это островок оживленных и душевных разговоров,
+                                        искренних улыбок под аккомпанемент вкусной еды. Место, где люди забывают про
+                                        рутину, пытаются найти способы решения своим проблемам, находят теплоту и
+                                        позитивный настрой. Делаем это доступно и удобно – через доставку или самовывоз
+                                        нашей душевной еды!
+                                    </p>
+                                    <p>Работаем навынос и на доставку!</p>
+                                </div>
+                                <div class="info__contacts row row-cols-lg-2 row-cols-1">
+                                    <div class="info__item row">
+                                        <div class="info__ico ">
+                                            <svg>
+                                                <use xlink:href="sprite.svg#phone-call"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="info__text ">
+                                            <h2>+7 (939) 331-66-36</h2>
+                                            <a href="tel:+79393316636">Позвонить</a>
+                                        </div>
+                                    </div>
+                                    <div class="info__item row">
+                                        <div class="info__ico ">
+                                            <svg>
+                                                <use xlink:href="sprite.svg#map-pin"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="info__text ">
+                                            <h2>Богатые сабы, ул. Тукая 15а</h2>
+                                            <a href="">Построить маршрут</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info__slider slider-info">
+                        <div class="slider-info__slide">
+                            <div class="slider-info__item">
+                                <img src="img/slides/s1.jpg" alt="слайд">
+                            </div>
+                        </div>
+                        <div class="slider-info__slide">
+                            <div class="slider-info__item">
+                                <img src="img/slides/s2.jpg" alt="слайд">
+                            </div>
+                        </div>
+                        <div class="slider-info__slide">
+                            <div class="slider-info__item">
+                                <img src="img/slides/s3.jpg" alt="слайд">
+                            </div>
+                        </div>
+                        <div class="slider-info__slide">
+                            <div class="slider-info__item">
+                                <img src="img/slides/s4.jpg" alt="слайд">
+                            </div>
+                        </div>
+                        <div class="slider-info__slide">
+                            <div class="slider-info__item">
+                                <img src="img/slides/s1.jpg" alt="слайд">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="dishes" class="dishes">
+                <div class="container">
+                    <div class="dishes__title">
+                        <h2>Наши блюда</h2>
+                    </div>
+                    <div class="dishes__row row row-cols-lg-4 row-cols-md-3 row-cols-2">
+                        <div class="dishes__column">
+                            <a href="food-rolls.html" class="dishes__item">
+                                <img src="img/dishes/d1.jpg" alt="">
+                                <p>Роллы</p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d2.jpg" alt="">
+                                <p>Пицца</p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d3.jpg" alt="">
+                                <p>Шаурма</p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d4.jpg" alt="">
+                                <p>Закрытая пицца </p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d5.jpg" alt="">
+                                <p>Горячие блюда</p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d6.jpg" alt="">
+                                <p>Гарниры</p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d7.jpg" alt="">
+                                <p>Горячие закуски</p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d8.jpg" alt="">
+                                <p>Супы</p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d9.jpg" alt="">
+                                <p>Салаты</p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d10.jpg" alt="">
+                                <p>Десерты</p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d11.jpg" alt="">
+                                <p>Напитки</p>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="dishes__column">
+                            <a href="#" class="dishes__item">
+                                <img src="img/dishes/d12.jpg" alt="">
+                                <p>Соусы</p>
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class='container'>
+                <div class="footer__row row justify-content-lg-between justify-content-center align-items-lg-end">
+                    <div class="footer__column">
+                        <div class="footer__item">
+                            <div class="footer__text">
+                                <h2 class="title">КӘЕФ БАР</h2>
+                                <p>2019 - 2022</p>
+                            </div>
+                            <div class="footer__address">
+                                <p>Телефон: <a href="tel:+79393316636">+7 (939) 331-66-36</a></p>
+                                <p>Адрес: <span>Богатые сабы, ул. Тукая 15а</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__item">
+                            <div
+                                class="footer__col-group col-group-contacts row justify-content-xl-end justify-content-md-center d-none d-md-flex">
+                                <div class="col-group-contacts__column">
+                                    <div class="footer__btns col-group-contacts__btns row">
+                                        <div class="footer__btn col-group-contacts__btn">
+                                            <svg>
+                                                <use xlink:href="sprite.svg#phone"></use>
+                                            </svg>
+                                            <a href="tel:+">Позвонить</a>
+                                        </div>
+                                        <div class="footer__btn col-group-contacts__btn">
+                                            <svg>
+                                                <use xlink:href="sprite.svg#list"></use>
+                                            </svg>
+                                            <a href="#dishes">Наши блюда</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-group-contacts__column">
+                                    <div class="footer__social col-group-contacts__social row">
+                                        <div class="footer__link col-group-contacts__link">
+                                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/ico/wup.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="footer__link col-group-contacts__link">
+                                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/ico/inst.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__authors">
+                                <p>
+                                    Разработка -
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">Будь в сети</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="fixed-footer">
+            <div class="container">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
