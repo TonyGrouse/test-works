@@ -174,7 +174,7 @@ body img {
 }
 
 @media (max-width: 767.98px) {
-    .header__title h1 {
+    .header__title a {
         font-size: 28px;
         line-height: 33px
     }
@@ -186,7 +186,7 @@ body img {
 }
 
 @media (max-width: 370px) {
-    .header__title h1 {
+    .header__title a {
         font-size: 20px;
         line-height: 25px
     }
