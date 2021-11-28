@@ -834,7 +834,7 @@ body img {
     position: relative
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
     .slick-list {
         max-width: 285px;
         margin: 0 auto
