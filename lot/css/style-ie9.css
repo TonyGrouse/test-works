@@ -1,3 +1,7 @@
+.table-type2 tr th {
+    text-align: left;
+}
+
 @media (max-width: 768px) {
     .table-type1 tr td {
         float: left;
