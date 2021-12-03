@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--[if lt IE 9]>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/style-ie9.css">  
+    <![endif]-->
+</head>
+
+<body>
+    <div class="title-lot">
+        <h2>Общие сведения о предмете договора</h2>
+    </div>
+    <div class="table-type1">
+        <table class="details-table">
+            <tbody>
+                <tr>
+                    <td class="td-label">Полное наименование (предмет договора)</td>
+                    <td class="td-value">Оказание услуг ответственного хранения имущества для нужд Архангельского РФ АО
+                        «Россельхозбанк»</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="title-lot">
+        <h2>Сведения о заказчике(ах), подписывающем(их) договор</h2>
+    </div>
+    <div class="table-type2">
+        <table data-orm-table-id="CustomerRequirements" class="grid-table-editable" data-orm-object-type="CustomerRequirementEX">
+            <tbody>
+                <tr>
+                    <th>Наименование организации</th>
+                    <th>Статус утверждения</th>
+                    <th>Требуется начальная цена договора</th>
+                    <th>Начальная цена договора</th>
+                    <th>Требуется обеспечение договора</th>
+                </tr>
+                <tr onmouseover="$(this).addClass('stat_hover')" onmouseout="$(this).removeClass('stat_hover')">
+                    <td>Акционерное общество "Российский сельскохозяйственный банк""</td>
+                    <td>Утвержден</td>
+                    <td>Да</td>
+                    <td>115 801,2</td>
+                    <td>Нет</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="title-lot">
+        <h2> </h2>
+    </div>
+    <div class="table-type1">
+        <table class="details-table">
+            <tbody>
+                <tr>
+                    <td class="td-label">Начальная цена</td>
+                    <td class="td-value">115 801,2</td>
+                </tr>
+                <tr>
+                    <td class="td-label">Начальная цена договора с учетом НДС</td>
+                    <td class="td-value">Да</td>
+                </tr>
+                <tr>
+                    <td class="td-label">Валюта</td>
+                    <td class="td-value">Российский рубль</td>
+                </tr>
+                <tr>
+                    <td class="td-label">Нельзя определить количество товара/ объем работ (услуг)</td>
+                    <td class="td-value">Да</td>
+                </tr>
+                <tr>
+                    <td class="td-label">Общая начальная (максимальная) цена единиц товара/ работ (услуг)</td>
+                    <td class="td-value">4 825,05</td>
+                </tr>
+                <tr>
+                    <td class="td-label">Место поставки, выполнения работ, оказания услуг</td>
+                    <td class="td-value">Согласно документации Заказчика</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>    
+    <div class="table-type2">
+        <table data-orm-table-id="SpareParts" class="grid-table-editable" data-orm-object-type="SparePart">
+            <tbody>
+                <tr>
+                    <th>Наименование</th>
+                    <th>Цена</th>
+                </tr>
+                <tr onmouseover="$(this).addClass('stat_hover')" onmouseout="$(this).removeClass('stat_hover')">
+                    <td>Ответственное хранение имущества</td>
+                    <td>4 825,05</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="title-lot">
+        <h2>Позиции лота</h2>
+    </div>
+    <div class="table-type1">
+        <table class="details-table">
+            <tbody>
+                <tr>
+                    <td class="td-label">Использовать классификаторы ОКПД2 и ОКВЭД2</td>
+                    <td class="td-value">Да</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>        
+    <div class="table-type2">
+        <table data-orm-table-id="LotItems" class="grid-table-editable" data-orm-object-type="NotificationLotItem">
+            <tbody>
+                <tr>
+                    <th>Порядковый номер</th>
+                    <th>Код ОКПД2</th>
+                    <th>Наименование ОКПД2</th>
+                    <th>Код ОКВЭД2</th>
+                    <th>Наименование ОКВЭД2</th>
+                    <th>Невозможно определить количество (объем)</th>
+                    <th>Единица измерения - код</th>
+                    <th>Единица измерения</th>
+                    <th>Количество</th>
+                    <th>Дополнительная информация</th>
+                </tr>
+                <tr onmouseover="$(this).addClass('stat_hover')" onmouseout="$(this).removeClass('stat_hover')">
+                    <td>1</td>
+                    <td>52.10.19</td>
+                    <td>Услуги по складированию и хранению прочие</td>
+                    <td>52.10</td>
+                    <td>Деятельность по складированию и хранению</td>
+                    <td>Нет</td>
+                    <td>876</td>
+                    <td>Условная единица</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="title-lot">    
+        <h2>Расширенные поля в заявках на участие</h2>
+    </div>
+    <div class="table-type2">
+        <table data-orm-table-id="ExtendedFieldsForLots" class="grid-table-editable" data-orm-object-type="NotificationExExtendedField">
+            <tbody>
+                <tr>
+                    <th>Вопросы заказчика</th>
+                    <th>Тип поля</th>
+                </tr>
+                <tr onmouseover="$(this).addClass('stat_hover')" onmouseout="$(this).removeClass('stat_hover')">
+                    <td colspan="2">&nbsp;(нет данных)&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
