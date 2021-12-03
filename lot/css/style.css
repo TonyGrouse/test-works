@@ -115,3 +115,9 @@
 	padding: 10px 15px;
 	border-bottom: 1px solid #c7c7c7;
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .table-type2 tr th {
+        text-align: left;
+    }
+}
