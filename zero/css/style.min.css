@@ -549,6 +549,8 @@ section {
 .ms__hex {
     flex: 0 1 741px;
     margin: 0 72px 0 0;
+    position: relative;
+    z-index: 1;
 }
 
 .ms__img {
@@ -600,6 +602,8 @@ section {
 .ms__text {
     flex: 0 1 510px;
     margin: 75px 0 0;
+    position: relative;
+    z-index: 2;
 }
 
 .ms__title {
@@ -781,6 +785,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -60px 90px;
+    position: relative;
+    z-index: 2;
 }
 
 @media (max-width: 991.98px) {
