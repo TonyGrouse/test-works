@@ -1265,6 +1265,7 @@ section {
     .founder__settings-title {
         text-align: center;
         font-size: 18px;
+        padding: 0 10px;
     }
     .founder__settings-list ul {
         justify-content: center;
@@ -1311,6 +1312,7 @@ section {
     }
     .founder__settings-title {
         font-size: 16px;
+        padding: 0 5px;
     }
     .founder__settings-list li {
         font-size: 16px;
