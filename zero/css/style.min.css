@@ -935,34 +935,24 @@ section {
 }
 
 .uniq__table-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 10px;
+    font-size: 16px;
 }
 .uniq__table-buttons button {
-    margin: 0 20px 20px;
-    padding: 10px;
-    width: 150px;
-    border-radius: 15px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    background-color: #fff;
-    color: #000;
+    color: #fff;
+    background-color: transparent;
     transition: all .4s ease;
 }
 .uniq__table-buttons button:hover {
-    background-color: rgb(142, 142, 142);
-    color: #fff;
+    color: #c5c5c5;
 }
 .uniq__table-buttons button.active {
-    background-color: #000;
-    color: #fff;
-}
-.graph {
-
-}
-.table {
-
+    text-decoration: underline;
+    font-weight: 400;
 }
 
 .uniq__data {
@@ -1185,8 +1175,6 @@ section {
     text-align: center;
     letter-spacing: 0.015em;
 }
-
-.founder__about-img {}
 
 .founder__about-text {
     margin: 30px 0 25px;
@@ -1425,16 +1413,12 @@ section {
     margin: 0 0 34px;
 }
 
-.start__row {}
-
 .start__column {
     margin: 0 0 60px;
 }
 .start__column:last-child {
     margin: 0;
 }
-
-.start__item {}
 
 
 .item-start {
